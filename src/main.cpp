@@ -29,10 +29,10 @@ bool light;
 /*CONFIG MQTT CONNECTION*/
 const char *ssid = "ACLAB";
 const char *password = "ACLAB2023";
-const char *mqttServer = "io.adafruit.com";
+const char *mqttServer = ""; // your Server Name
 const int mqttPort = 1883;
-const char *mqttUser = "hieuduongk22bk";
-const char *mqttPassword = "aio_CgOe77qUN0Gdvfnb0sqMCTXErAdS";
+const char *mqttUser = ""; // your MQTT username
+const char *mqttPassword = ""; // your MQTT key
 
 WiFiClient espClient;
 PubSubClient client(espClient);
